@@ -1,3 +1,3 @@
 # spinner
 
-[questa](https://marcopedone.github.io/spinner/)
+[this](https://marcopedone.github.io/spinner/)
