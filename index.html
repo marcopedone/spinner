@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .hypnotic {
+            width: min(200px, 60vw);
+            height: min(200px, 60vw);
+            border: 2.9px solid #000000;
+            display: grid;
+            animation: hypnotic-q3fddx 10s infinite linear;
+        }
+
+        .hypnotic::before,
+        .hypnotic::after {
+            content: "";
+            grid-area: 1/1;
+            margin: auto;
+            width: 70.7%;
+            height: 70.7%;
+            border: 2.9px solid #000000;
+            animation: inherit;
+        }
+
+        .hypnotic::after {
+            width: 50%;
+            height: 50%;
+            border: 2.9px solid #000000;
+            animation-duration: 5s;
+        }
+
+        @keyframes hypnotic-q3fddx {
+            100% {
+                transform: rotate(1turn);
+            }
+        }
+    </style>
+</head>
+
+<body style="height:100%;">
+
+    <div class="hypnotic" style="margin:auto; margin-top:40vh;"></div>
+
+
+</body>
+
+</html>
